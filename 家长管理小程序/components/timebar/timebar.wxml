@@ -1,0 +1,7 @@
+<!-- 这是自定义组件的内部WXML结构 -->
+<view class='.flex-box-column'>
+     <view class=".flex-box-textTip">{{timeTip}}</view>
+     <canvas class='.flex-canvas' canvas-id="time_canvas" bindtouchstart="_onTouchStart" bindtouchmove="_onTouchMove"></canvas>
+      <view class='flex-box-textTip'>{{time_descibe}}</view>
+</view>
+<slot></slot>

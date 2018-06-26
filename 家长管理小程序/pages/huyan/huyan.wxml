@@ -1,0 +1,21 @@
+<view class=".flex-box">
+<view>防近视感应</view>
+<switch bindchange='statechange' id='protect_eye'></switch>
+</view>
+<view class=".flex-box">
+<view>翻转识别</view>
+<switch bindchange='statechange' id='protect_over'></switch>
+</view>
+<view class=".flex-box">
+<view>防抖动</view>
+<switch bindchange='statechange' id='protect_shadow'></switch>
+</view>
+<view class=".flex-box">
+<view>防沉迷</view>
+<switch bindchange='statechange' id='protect_wallow'></switch>
+</view>
+<!-- 自定义组件-分段时间选择器 -->
+<timebar/>
+
+
+

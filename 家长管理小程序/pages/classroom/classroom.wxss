@@ -1,0 +1,36 @@
+/* pages/classroom/classroom.wxss */
+.flex-box{
+  margin-left: 24px;
+  margin-top: 24px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background: "#a0f0a0"
+
+}
+.green{   
+  background: green;
+  width: 100px;
+  height: 100px;
+}
+.red{   
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+.right{
+ align-self:  flex-end;
+
+}
+.line{
+margin-top: 20px;
+background: gray;
+width:  500px;
+height: 1px;
+}
+.timeLine{
+  margin-top: 20px;
+  width: 305px;
+  height: 20px
+}
+

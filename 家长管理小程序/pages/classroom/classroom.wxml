@@ -1,0 +1,6 @@
+<!--pages/classroom/classroom.wxml-->
+<view class="flex-box">
+   <view >课堂</view>
+   <switch bindchange="switch_change"></switch>
+</view>
+<view class='line'></view>

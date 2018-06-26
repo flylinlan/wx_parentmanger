@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "timebar": "/components/timebar/timebar"
+  }
+
+}
